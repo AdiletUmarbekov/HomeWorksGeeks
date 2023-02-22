@@ -52,9 +52,10 @@ button.addEventListener("click", function(event) {
   let res = [];
   for (let i = 0; i < 6; i++) {
     res.push(getRandomInt(1, 99));
+   
   }
   resNum.forEach((numEl, idx) => {
     numEl.innerHTML = res[idx];
   });
   console.log(res);
-});
+}); 
