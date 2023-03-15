@@ -1,0 +1,99 @@
+.singIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singIn__form {
+  background-color: #fff;
+  padding: 77px 55px 55px 55px;
+  width: 450px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.singIn__passwords {
+  position: relative;
+}
+.singIn__eye {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.singIn__eye2 {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+.singIn__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.singIn__email {
+  margin: 50px 0 16px;
+  width: 350px;
+  border: none;
+  outline: none;
+  background: #E6E6E6;
+  padding: 20px 20px 20px 45px;
+  border-radius: 3px;
+}
+.singIn__password {
+  width: 350px;
+  border: none;
+  outline: none;
+  background: #E6E6E6;
+  padding: 20px 20px 20px 45px;
+  border-radius: 3px;
+}
+.singIn__confirmPass {
+  margin: 16px 0 50px;
+  width: 350px;
+  border: none;
+  outline: none;
+  background: #E6E6E6;
+  padding: 20px 20px 20px 45px;
+  border-radius: 3px;
+}
+.singIn__button {
+  width: 350px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  background: #D33F8D;
+  border-radius: 3px;
+  height: 62px;
+  border: none;
+}
+
+.sing-Main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #0250C5 0%, #D43F8D 100%);
+}
+.errorBorder{
+   
+  border: 1px solid red;
+
+}
+.success{
+  border: 1px solid green;
+
+}
