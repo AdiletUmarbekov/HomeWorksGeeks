@@ -1,0 +1,32 @@
+.block{
+    flex-flow: row wrap;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 20%;
+    background-color: #a3c7f0;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.img{
+    padding: 1px;
+    border-radius: 10px;
+    
+    background-color: #ffffff;
+    width: 270px;
+    height: 270px;
+
+}
